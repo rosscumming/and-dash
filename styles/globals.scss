@@ -1,0 +1,11 @@
+//defaults
+@use '../styles/base/base';
+@use '../styles/base/reset';
+
+// abstract
+@use '../styles/abstracts/functions';
+@use '../styles/abstracts/mixins';
+@use '../styles/abstracts/variables';
+
+//layout
+@use '../styles/partials/layout/navbar';
