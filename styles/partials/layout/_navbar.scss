@@ -1,0 +1,18 @@
+@use '../../abstracts/' as *;
+
+nav {
+  height: 60px;
+  border-bottom: 1px $border-bottom solid;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 60px;
+    padding: 5px 10px;
+    width: inherit;
+  }
+}

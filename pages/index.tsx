@@ -1,11 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.scss";
 
-export default function Home() {
+const Home = () => {
   return (
-    <div>
+    <main>
       <h1>Hello world</h1>
-    </div>
+    </main>
   );
-}
+};
+
+export default Home;
