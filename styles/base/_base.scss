@@ -1,5 +1,18 @@
 @use '../abstracts/' as *;
+@use '../base/' as *;
 
 body {
   background: $theme-bg-light;
+  font-family: $font-family-main;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-headings;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
